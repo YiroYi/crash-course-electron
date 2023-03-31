@@ -1,0 +1,14 @@
+{
+  "name": "crash-course-electron",
+  "version": "1.0.0",
+  "description": "course app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yiro Yi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.1"
+  }
+}
