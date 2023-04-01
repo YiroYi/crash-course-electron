@@ -4,11 +4,14 @@
   "description": "course app",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yiro Yi",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^23.2.1"
+    "electron": "^23.2.1",
+    "nodemon": "^2.0.0"
   }
 }
